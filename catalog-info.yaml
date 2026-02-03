@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: juiceshopname
   description: |
@@ -18,7 +18,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: library
+  type: openapi
   owner: CNCF
   lifecycle: production
   definition:
