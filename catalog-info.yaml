@@ -22,4 +22,4 @@ spec:
   owner: CNCF
   lifecycle: production
   definition:
-    $file: ./api/openapi.yaml
+    $text: ./api/openapi.yaml
